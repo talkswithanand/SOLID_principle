@@ -4,15 +4,15 @@ S -> Single Responsibilty Principle
 
 O -> Open Closed Principle
 
-📝 Modules should be open for new requirements for implementation, should be closed for modification within exisiting module.
+📝 classes should be open for new requirements for implementation, should be closed for modification within exisiting class.
 
 L -> Liskov Substitution Principle
 
-📝 derived classes must be substitutable for their base classes. In other 	words, if class A is subtype of class B, then we should be able to 	replace B with A without interrupting the behavior of the program. i.e. if implementing parent, then all functions of parent class should be supported & implemented in child.
+📝 derived classes must be substitutable for their base classes. In other 	words, if class A is subtype of class B, then we should be able to 	replace B with A without interrupting the behavior of the program. i.e. if implementing parent, then all functions of parent class should be useful for child.
 
 I -> Interface Segregation Principle
 
-📝 Larger interfaces split into smaller ones. Because implementation classes use only the methods that are required. Should not force the client to use the methods that they do not want to use.
+📝 Larger interfaces split into smaller ones. Because implementation classes use only the methods that are required. Should not force the child to use the methods that they do not want to use.
 
 D -> Dependency Inversion Principle
 
