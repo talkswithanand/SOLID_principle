@@ -1,0 +1,21 @@
+S -> Single Responsibilty Principle
+
+📝 Every Java class must have single funtionality to perform, should not have  multiple functions.
+
+O -> Open Closed Principle
+
+📝 Modules should be open for new requirements for implementation, should be closed for modification within exisiting module.
+
+L -> Liskov Substitution Principle
+
+📝 derived classes must be substitutable for their base classes. In other 	words, if class A is subtype of class B, then we should be able to 	replace B with A without interrupting the behavior of the program. i.e. if implementing parent, then all functions of parent class should be supported & implemented in child.
+
+I -> Interface Segregation Principle
+
+📝 Larger interfaces split into smaller ones. Because implementation classes use only the methods that are required. Should not force the client to use the methods that they do not want to use.
+
+D -> Dependency Inversion Principle
+
+📝 Must use abstraction (abstract classes & interfaces) instead of concrete implementation. High level module should not depend on low level module both should depend on the abstraction.
+
+Ex: Paying to shopping mall(High Level Module) through card. Shop keeper does not bother about credit/ debit card (Implementing classes). Only matters bank card (Low level Module).
